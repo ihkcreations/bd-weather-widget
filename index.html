@@ -1,49 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8">  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bangladesh Weather Widget</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main class="app">
-    <header class="header">
+    <header class="header">  
       <h1>Bangladesh Weather</h1>
       <p>Select a city to view current conditions</p>
     </header>
     <section class="selector">
       <label for="city-select">City</label>
       <select id="city-select"></select>
-    </section>
+    </section>  
     <section class="card" id="weather-card">
       <div class="weather-header">
         <h2 id="city-name">Select City</h2>
         <span id="weather-icon" class="weather-icon">--</span>
       </div>
       <div class="weather-body">
-        <div class="temp-display">
+        <div class="temp-display">  
           <span id="temp-val">--</span>
           <span class="unit">°C</span>
         </div>
         <p id="condition-text" class="condition">Please select a city above</p>
       </div>
       <div class="weather-details">
-        <div class="detail-item">
+        <div class="detail-item">  
           <span class="label">Humidity</span>
           <span id="humidity-val" class="value">--</span>
         </div>
         <div class="detail-item">
           <span class="label">Wind</span>
           <span id="wind-val" class="value">--</span>
-        </div>
+        </div>  
         <div class="detail-item">
           <span class="label">Condition</span>
           <span id="status-val" class="value">--</span>
         </div>
       </div>
     </section>
-  </main>
+  </main>  
   <script src="script.js"></script>
 </body>
 </html>
+
+
